@@ -7,13 +7,26 @@
 
 'use strict';
 
-var extend = require('extend'),
-    config = require('spa-gulp-sass/config');
+var path       = require('path'),
+    extend     = require('extend'),
+    rootConfig = require('spa-gulp/config'),
+    baseConfig = require('spa-gulp-sass/config'),
+    srcPath    = path.join(rootConfig.source, 'sass'),
+    dstPath    = path.join(rootConfig.target, 'css'),
+    cachePath  = path.join(srcPath, '.cache');
+
+
+// reset
+delete baseConfig.default;
+delete baseConfig.develop;
+
+
+// add new profiles
+baseConfig[480]  = {};
+baseConfig[576]  = {};
+baseConfig[720]  = {};
+baseConfig[1080] = {};
 
 
 // public
-module.exports = extend(true, {}, config, {
-    default: {
-        resolution: [480, 576, 720, 1080]
-    }
-});
+module.exports = baseConfig;
