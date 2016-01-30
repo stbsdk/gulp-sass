@@ -15,7 +15,8 @@
         "del": "2.*.*",
         "extend": "3.*.*",
         "node-sass": "3.*.*",
-        "stb-gulp": "stbsdk/gulp"
+        "stb-gulp": "stbsdk/gulp",
+        "spa-gulp-sass": "spasdk/gulp-sass"
     },
     "keywords": [
         "stb",
