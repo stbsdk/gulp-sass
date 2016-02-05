@@ -9,4 +9,4 @@
 require('./config');
 
 // public
-module.exports = require('spa-gulp-sass');
+module.exports = require('spa-plugin-sass');

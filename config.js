@@ -10,7 +10,7 @@
 var path       = require('path'),
     extend     = require('extend'),
     rootConfig = require('spa-gulp/config'),
-    baseConfig = require('spa-gulp-sass/config'),
+    baseConfig = require('spa-plugin-sass/config'),
     srcPath    = path.join(rootConfig.source, 'sass'),
     dstPath    = path.join(rootConfig.target, 'css'),
     cachePath  = path.join(srcPath, '.cache');

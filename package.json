@@ -1,12 +1,12 @@
 {
-    "name": "stb-gulp-sass",
+    "name": "stb-plugin-sass",
     "version": "1.3.0",
     "description": "Compile CSS files from SASS sources.",
     "author": {
         "name": "Stanislav Kalashnik",
         "email": "darkpark.main@gmail.com"
     },
-    "repository": "stbsdk/gulp-sass",
+    "repository": "stbsdk/plugin-sass",
     "scripts": {
         "lint": "eslint *.js",
         "jsdoc": "jsdoc --destination doc *.js readme.md"
@@ -16,7 +16,7 @@
         "extend": "3.*.*",
         "node-sass": "3.*.*",
         "stb-gulp": "stbsdk/gulp",
-        "spa-gulp-sass": "spasdk/gulp-sass"
+        "spa-plugin-sass": "spasdk/plugin-sass"
     },
     "keywords": [
         "stb",
