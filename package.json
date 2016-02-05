@@ -12,10 +12,8 @@
         "jsdoc": "jsdoc --destination doc *.js readme.md"
     },
     "dependencies": {
-        "del": "2.*.*",
         "extend": "3.*.*",
         "node-sass": "3.*.*",
-        "stb-gulp": "stbsdk/gulp",
         "spa-plugin-sass": "spasdk/plugin-sass"
     },
     "keywords": [

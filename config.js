@@ -9,7 +9,7 @@
 
 var path       = require('path'),
     extend     = require('extend'),
-    rootConfig = require('spa-gulp/config'),
+    rootConfig = require('spasdk/config'),
     baseConfig = require('spa-plugin-sass/config'),
     srcPath    = path.join(rootConfig.source, 'sass'),
     dstPath    = path.join(rootConfig.target, 'css'),
