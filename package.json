@@ -20,9 +20,8 @@
         "stb",
         "stbsdk",
         "framework",
-        "gulp",
         "develop",
-        "task",
+        "plugin",
         "sass"
     ],
     "license": "GPL-3.0"
