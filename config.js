@@ -7,7 +7,7 @@
 
 var path       = require('path'),
     extend     = require('extend'),
-    rootConfig = require('spasdk/config'),
+    rootConfig = require('spa-plugin/config'),
     baseConfig = require('spa-plugin-sass/config'),
     srcPath    = path.join(rootConfig.source, 'sass'),
     dstPath    = path.join(rootConfig.target, 'css'),
