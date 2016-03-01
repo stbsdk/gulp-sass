@@ -28,11 +28,21 @@ var path       = require('path'),
 
 
 profiles['default:480'] = extend(true, {}, baseConfig.default, {
+    varsFile: 'vars/480.scss',
 
+    sass: {
+        // the intended location of the output file
+        outFile: path.join(dstPath, 'release.480.css')
+    }
 });
 
 profiles['develop:480'] = extend(true, {}, baseConfig.develop, {
+    varsFile: 'vars/480.scss',
 
+    sass: {
+        // the intended location of the output file
+        outFile: path.join(dstPath, 'develop.480.css')
+    }
 });
 
 
