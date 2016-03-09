@@ -16,6 +16,9 @@
         "node-sass": "3.*.*",
         "spa-plugin-sass": "spasdk/plugin-sass"
     },
+    "devDependencies": {
+        "stb-eslint-config": "stbsdk/eslint-config"
+    },
     "keywords": [
         "stb",
         "stbsdk",
