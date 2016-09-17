@@ -1,6 +1,7 @@
 Compile CSS files from SASS sources
 ===================================
 
+[![Build Status](https://img.shields.io/travis/stbsdk/plugin-sass.svg?style=flat-square)](https://travis-ci.org/stbsdk/plugin-sass)
 [![NPM version](https://img.shields.io/npm/v/stb-plugin-sass.svg?style=flat-square)](https://www.npmjs.com/package/stb-plugin-sass)
 [![Dependencies Status](https://img.shields.io/david/stbsdk/plugin-sass.svg?style=flat-square)](https://david-dm.org/stbsdk/plugin-sass)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/stbsdk)
