@@ -21,7 +21,7 @@
         "spa-plugin-sass": "spasdk/plugin-sass"
     },
     "devDependencies": {
-        "eslint": "2.*.*",
+        "eslint": "3.*.*",
         "stb-eslint-config": "stbsdk/eslint-config"
     },
     "keywords": [
