@@ -10,7 +10,7 @@ var path       = require('path'),
     rootConfig = require('spa-plugin/config'),
     baseConfig = require('spa-plugin-sass/config'),
     srcPath    = path.join(rootConfig.source, 'sass'),
-    dstPath    = path.join(rootConfig.source, 'css'),
+    dstPath    = path.join(rootConfig.target, 'css'),
     //cachePath  = path.join(srcPath, '.cache'),
     profiles   = {};
 
@@ -37,7 +37,7 @@ var path       = require('path'),
             file: path.join(srcPath, fileName + '.scss'),
 
             // the intended location of the output file
-            outFile: path.join(dstPath, fileName + '.css')
+            outFile: path.join(dstPath, 'release.app.' + resolution + '.css')
         }
     });
 });
@@ -53,7 +53,11 @@ var path       = require('path'),
             file: path.join(srcPath, fileName + '.scss'),
 
             // the intended location of the output file
-            outFile: path.join(dstPath, fileName + '.css')
+            outFile: path.join(dstPath, 'develop.app.' + resolution + '.css'),
+
+            // the writing location for the source map file
+            // options: file name, true - inline source map, false - disable
+            sourceMap: path.join(dstPath, 'develop.app.' + resolution + '.map')
         }
     });
 });
