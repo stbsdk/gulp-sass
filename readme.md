@@ -1,9 +1,10 @@
 Compile CSS files from SASS sources
 ===================================
 
-[![Build Status](https://img.shields.io/travis/stbsdk/plugin-sass.svg?style=flat-square)](https://travis-ci.org/stbsdk/plugin-sass)
-[![NPM version](https://img.shields.io/npm/v/stb-plugin-sass.svg?style=flat-square)](https://www.npmjs.com/package/stb-plugin-sass)
-[![Dependencies Status](https://img.shields.io/david/stbsdk/plugin-sass.svg?style=flat-square)](https://david-dm.org/stbsdk/plugin-sass)
+[![build status](https://img.shields.io/travis/stbsdk/plugin-sass.svg?style=flat-square)](https://travis-ci.org/stbsdk/plugin-sass)
+[![npm version](https://img.shields.io/npm/v/stb-plugin-sass.svg?style=flat-square)](https://www.npmjs.com/package/stb-plugin-sass)
+[![dependencies status](https://img.shields.io/david/stbsdk/plugin-sass.svg?style=flat-square)](https://david-dm.org/stbsdk/plugin-sass)
+[![devDependencies status](https://img.shields.io/david/dev/stbsdk/plugin-sass.svg?style=flat-square)](https://david-dm.org/stbsdk/plugin-sass?type=dev)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/stbsdk)
 
 
